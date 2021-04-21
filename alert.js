@@ -48,4 +48,4 @@ function a3(){
 }
 function a4(){
     alert('Githubで遊ぼう\n 誰かRTX 2060SuperとRyzen 7 3700Xを恵んでくれる裕福な方はいませんか。')
-    }
+}
