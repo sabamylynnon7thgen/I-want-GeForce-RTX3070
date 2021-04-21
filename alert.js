@@ -45,7 +45,7 @@ function a3(){
     if(hk==12){
         alert('Ryzen 7 ExtremeEdition\n8C16T\n1.8GHz\n4.2GHz\n15w\nZen2(Renoir製品群)\nNECのLaVie N15の最上位モデルのみに搭載されたド変態\nベースになったCPUはRyzen 7 4800Uではないかとされる\n本当に15wの冷却装備で冷やしきれるのかが懸念材料となる。')
     }
-    function a4(){
-        alert('Githubで遊ぼう\n 誰かRTX 2060SuperとRyzen 7 3700Xを恵んでくれる裕福な方はいませんか。')
-    }
 }
+function a4(){
+    alert('Githubで遊ぼう\n 誰かRTX 2060SuperとRyzen 7 3700Xを恵んでくれる裕福な方はいませんか。')
+    }
