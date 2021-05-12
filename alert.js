@@ -1,5 +1,5 @@
 function a1(){
-    alert('主のTwitterのフォロワーの人数:693\nフォロー中の人数:781')
+    alert('主のTwitterのフォロワーの人数:975\nフォロー中の人数:1005')
 }
 function a2(){
     alert('チャンネル登録してクレメンス')
