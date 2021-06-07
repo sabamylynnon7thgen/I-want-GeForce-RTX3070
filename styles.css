@@ -1,33 +1,38 @@
-:root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
+body{
+    background: #eeeeee  ;
+    font-family: Meiryo;
 }
-p{
-  color:purple;
-  width:500px;
-  border: 1px solid black;
+.headder{
+    background-color: aquamarine;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 30px auto;
+    box-shadow: grey 4px 4px;
+}
+.LieX{
+    background-color: orange;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px;
+    border-color: black ;
+    margin: 20px auto;
+    box-shadow: 3px 3px;
+}
+.BTN1{
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    background:whitesmoke;
+    color: #924593;
+    border-bottom: solid 4px #626262;
+    border-radius: 4px;
+
+}
+.BTN1:active{
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
 }
