@@ -1,5 +1,5 @@
 function a1(){
-    alert('主のTwitterのフォロワーの人数:975\nフォロー中の人数:1005')
+    alert('主のTwitterのフォロワーの人数:1101\nフォロー中の人数:1065')
 }
 function a2(){
     alert('チャンネル登録してクレメンス')
@@ -47,5 +47,4 @@ function a3(){
     }
 }
 function a4(){
-    alert('Githubで遊ぼう\n 誰かRTX 2060SuperとRyzen 7 3700Xを恵んでくれる裕福な方はいませんか。')
-}
+    alert('Githubで遊ぼう')
