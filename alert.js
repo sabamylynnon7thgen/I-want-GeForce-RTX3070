@@ -1,11 +1,12 @@
+
 function a1(){
-    alert('主のTwitterのフォロワーの人数:1101\nフォロー中の人数:1065')
+    alert('主のTwitterのフォロワーの人数:1062\nフォロー中の人数:1046')
 }
 function a2(){
     alert('チャンネル登録してクレメンス')
 }
 function a3(){
-    var hk=Math.floor(Math.random()*13)
+    var hk=Math.floor(Math.random()*14)
     if(hk==0){
         alert('Core i7-4790K\n4C8T\n4.0GHz\n4.4GHz\n88w\nHaswell(DevilsCanyon製品群)\nXP2000さんのメイン機に使われたCPU.\n7700Kが出るまでは最もクロックが高いCPUだった')
     }
@@ -45,7 +46,47 @@ function a3(){
     if(hk==12){
         alert('Ryzen 7 ExtremeEdition\n8C16T\n1.8GHz\n4.2GHz\n15w\nZen2(Renoir製品群)\nNECのLaVie N15の最上位モデルのみに搭載されたド変態\nベースになったCPUはRyzen 7 4800Uではないかとされる\n本当に15wの冷却装備で冷やしきれるのかが懸念材料となる。')
     }
+    if(hk==13){
+        alert('Core 2 Duo E8500\n2C2T\n3.16GHz\n1333MHz FSB\n65w\nPenryn(Wolfdale)\nCore 2 Duoの中では上から2番目のクロックの持ち主\n中学生がよく使ってる印象がある\nOC耐性はE0ステッピングがかなり高く条件次第ではE8400の世界記録を超えることも可能である')
+    }
 }
 function a4(){
     alert('Githubで遊ぼう')
 }
+function a5(){
+    const CPU=["Core 2 Duo E8500(SLB9K)","Core i7-2600K","Core i5-3470S","Celeron G1820","Pentium G3258","Core i7-4770K","Core i7-4790K","Xeon E3-1225v3(SR14U)","Core i7-930","Core i7-980X","Celeron G3900","Ryzen 5 1600(8Core)","Ryzen 7 1800X","Celeron G4950","Xeon E5-2680v2 x2","Core i7-8700K","Core i5-9400F","Core i7-9700K(R0)","Core i9-9900K","Core i5-10400","Core i7-10700F","Core i9-10900K","Core i7-11700K","Core i9-11900K","Ryzen 5 2600","Ryzen 7 2700X","Ryzen 3 3300X","Ryzen 5 3500","Ryzen 5 3600","Ryzen 7 3700X","Ryzen 9 3900XT","Ryzen 5 5600X","Ryzen 7 5700G","Ryzen 7 5800X","Ryzen 9 5900X","Ryzen 9 5950X","Core i7-7820X","Core i9-10920X","Xeon Gold 6248R x2","EPYC 7H12"]
+    const GPU=["GeForce GTX1660Super","Radeon RX6700XT","GeForce RTX3070(GA104-302)","GeForce RTX2060Super","GeForce RTX3070","GeForce RTX 2070","GeForce RTX3090 NVLink SLI","GeForce GT710","GeForce GTX1060(6GB)","Radeon RX5500XT","Radeon RX5600XT","GeForce GTX970","GeForce GTX1080Ti 3waySLI","GeForce RTX3060","GeForce GTX1050Ti","GeForce GTX1650(GDDR6-TU116版)","Radeon RX Vega 56","Radeon RX6800","Quadro GV100","RTX A6000","RTX A6000 2Way QuadroSync SLI","GeForce RTX3060Ti","RTX A4000 4way","GeForce RTX3060Ti LHR OC","RTX A4000","Radeon RX6600XT","NVIDIA TITAN X"]
+    const RAM=["2GB","4GB","8GB","12GB","16GB","24GB","32GB","40GB","48GB","64GB","96GB","128GB","192GB","256GB"]
+    const HDD=["500GB","640GB","750GB","1TB","1.5TB","2TB","3TB","4TB","6TB","8TB","10TB"]
+    const SSD=["Not installed","SATA 60GB","SATA 120GB","SATA 240GB","SATA 250GB","SATA 256GB","NVMe 256GB","SATA 480GB","SATA 500GB","SATA 512GB","NVMe 500GB","NVMe 512GB","SATA 1TB","NVMe 1TB","SATA 2TB","NVMe 2TB","SATA 4TB","NVMe 2TB×2(RAID0)"]
+
+
+    cpu0=Math.floor(Math.random()*CPU.length)
+    cpu1=CPU[cpu0]
+    gpu0=Math.floor(Math.random()*GPU.length)
+    gpu1=GPU[gpu0]   
+    if(cpu0==0){
+        ram0=Math.floor(Math.random()*5)
+    }else if(cpu0>=1&&cpu0<=7){
+        ram0=Math.floor(Math.random()*6+1)
+    }else if(cpu0==8||cpu0==9){
+        ram0=Math.floor(Math.random()*8+1)
+    }else if(cpu0>=10&&cpu0<=13){
+        ram0=Math.floor(Math.random()*9+1)
+    }else if(cpu0>=14&&cpu0<=35){
+        ram0=Math.floor(Math.random()*10+2)
+    }else{
+        ram0=Math.floor(Math.random()*11+3)
+    }
+    ram1=RAM[ram0]
+    hdd0=Math.floor(Math.random()*HDD.length)
+    hdd1=HDD[hdd0]
+    ssd0=Math.floor(Math.random()*SSD.length)
+    ssd1=SSD[ssd0]
+    ssdc=Math.floor(Math.random()*2)
+    if(ssdc==0){
+    ssd2=Math.floor(Math.random()*SSD.length)
+    ssd3=SSD[ssd2]
+    }else ssd3=SSD[0]
+    alert(`ゲストさんのPCのスペックは...\nCPU:${cpu1}\nGPU:${gpu1}\nRAM:${ram1}\nHDD:${hdd1}\nSSD:${ssd1}+${ssd3}\nです`)
+    }
