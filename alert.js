@@ -48,3 +48,4 @@ function a3(){
 }
 function a4(){
     alert('Githubで遊ぼう')
+}
