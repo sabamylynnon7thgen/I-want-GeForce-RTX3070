@@ -4,7 +4,7 @@ body{
 }
 .headder{
     background-color: aquamarine;
-    width: 350px;
+    width: 667px;
     padding: 15px;
     text-align: center;
     border-radius: 12px;
@@ -35,4 +35,23 @@ body{
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
     border-bottom: none;
+}
+.SABANODIAMOND{
+    background-color: burlywood;
+    width: 667px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 30px auto;
+    box-shadow: grey 8px 8px;
+}
+.sabam{
+    background-color: gold;
+    width: 334px;
+    padding: 16px auto;
+    text-align: center;
+    border-radius: 40px;
+    border-color: black ;
+    margin: 20px auto;
+    box-shadow: grey 4px 4px;
 }
