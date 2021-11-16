@@ -53,5 +53,13 @@ body{
     border-radius: 40px;
     border-color: black ;
     margin: 20px auto;
-    box-shadow: grey 4px 4px;
+    box-shadow: grey 10px 10px;
+}
+.about0{
+    background-color:darkgoldenrod;
+    width: 650px;
+    text-align: center;
+    margin: 1px  auto;
+    border-radius: 12px;
+    box-shadow: gray 8px 8px;
 }
