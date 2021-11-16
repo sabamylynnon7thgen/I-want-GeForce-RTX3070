@@ -63,3 +63,72 @@ body{
     border-radius: 12px;
     box-shadow: gray 8px 8px;
 }
+.Bot01{
+    background-color: whitesmoke;
+    width: 400px;
+    border-radius: 16px;
+    text-align: center;
+    margin: 33px auto;
+}
+.om01{
+    background-color: whitesmoke;
+    width: 570px;
+    text-align: center;
+    margin: 25px auto;
+    border-radius: 16px;
+    
+}
+.fake01{
+    background-color: coral;
+    width: 1660px;
+    text-align: center;
+    margin: 33px auto;
+    border-radius: 34px ;
+}
+.fake02{
+    background-color: whitesmoke;
+    width: 777px ;
+    text-align: center;
+    margin: 22px auto;
+    border-radius: 33px;
+    box-shadow: gray 8px 8px;
+}
+.fake03{
+    background-color: whitesmoke;
+    width: 1331px ;
+    text-align: center;
+    margin: 22px auto;
+    border-radius: 33px;
+    box-shadow: gray 8px 8px;
+}
+.fake04{
+    background-color: whitesmoke;
+    width: 1366px ;
+    text-align: center;
+    margin: 22px auto;
+    border-radius: 33px;
+    box-shadow: gray 8px 8px;
+}
+.fake05{
+    background-color: whitesmoke;
+    width: 1334px ;
+    text-align: center;
+    margin: 22px auto;
+    border-radius: 33px;
+    box-shadow: gray 8px 8px;
+}
+.fake06{
+    background-color: whitesmoke;
+    width: 334px ;
+    text-align: center;
+    margin: 15px auto;
+    border-radius: 33px;
+    box-shadow: gray 8px 8px;
+}
+.om02{
+    background-color:#99C99C;
+    width: 423px;
+    height: 478px;
+    border-radius:22px ;
+    margin: 33px auto;
+}
