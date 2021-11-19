@@ -132,6 +132,20 @@ body{
     border-radius:22px ;
     margin: 33px auto;
 }
+.om03{
+    background-color: dodgerblue;
+    width: 570px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius:20px ;
+}
 .pc01{
     margin: 5px auto;
+}
+.pcp01{
+    width: 1151px;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 33px;
 }
