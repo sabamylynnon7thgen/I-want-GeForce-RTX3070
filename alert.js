@@ -5,7 +5,7 @@ function a2(){
     alert('チャンネル登録してクレメンス')
 }
 function a3(){
-    var hk=Math.floor(Math.random()*14)
+    var hk=Math.floor(Math.random()*18)
     if(hk==0){
         alert('Core i7-4790K\n4C8T\n4.0GHz\n4.4GHz\n88w\nHaswell(DevilsCanyon製品群)\nXP2000さんのメイン機に使われたCPU.\n7700Kが出るまでは最もクロックが高いCPUだった')
     }
@@ -16,7 +16,7 @@ function a3(){
         alert('Core i7-8565U\n4C8T\n1.8GHz\n4.6GHz\n15w\nWhiskeyLake-U\nチューニング次第では大きく化けるCPU\n8550Uからターボは大幅にクロックアップ')
     }
     if(hk==3){
-        alert('Corei5-9400F\n6C6T\n2.9GHz\n4.1GHz\n65w\nCoffeeLakeReflesh-S\nintelが狂ったような値段で売り出したintelらしくないiGPU無効のCPU\n性能はRyzen 5 3500と同等であるがゲーミングにおいては圧倒的なつよさを持つintelらしい一面も見える')
+        alert('Core i5-9400F\n6C6T\n2.9GHz\n4.1GHz\n65w\nCoffeeLakeReflesh-S\nintelが狂ったような値段で売り出したintelらしくないiGPU無効のCPU\n性能はRyzen 5 3500と同等であるがゲーミングにおいては圧倒的なつよさを持つintelらしい一面も見える')
     }
     if(hk==4){
         alert('Ryzen 5 3600\n6C12T\n3.6GHz\n4.2GHz\n65w\nZen2(Matisse製品群)\n2019年7月7日発売モデルの中では最廉価なモデルだが格上のCore i7-8700Kよりも性能が高い(R15 nT1500cbオーバー)ことや8700Kよりもエコであるので完全に8700Kにトドメを刺したCPUである\nコスパは2019年のCPUの中では最も高い')
@@ -47,6 +47,18 @@ function a3(){
     }
     if(hk==13){
         alert('Core 2 Duo E8500\n2C2T\n3.16GHz\n1333MHz FSB\n65w\nPenryn(Wolfdale)\nCore 2 Duoの中では上から2番目のクロックの持ち主\n中学生がよく使ってる印象がある\nOC耐性はE0ステッピングがかなり高く条件次第ではE8400の世界記録を超えることも可能である')
+    }
+    if(hk==14){
+        alert('Core i5-12600K\n6C12T+4C4T\n3.7GHz+2.8GHz\n4.9GHz+3.6GHz\n125w\nAlderLake-S\n格上であるRyzen 7 5800Xに完全勝利できたi5\n6C12TのPコアと4C4TのEコアといった特殊な組み合わせでもWindows 11が快適に動くらしい(M$の最適化怖すぎ)\nLakefieldの改良版にしてはよく出来すぎている')
+    }
+    if(hk==15){
+        alert('Ryzen 7 4980U Microsoft Surface Edition\n8C16T\n2.0GHz\n4.4GHz\n15w\nZen2(Renoir)\nUモデル最強の名をほしいがごとく満を持して登場した事実上ノート用Zen2 APU最強となってしまった\nlavie N15より薄い筐体であるSurface Laptop 4で冷やしきれるのかが懸念点である')
+    }
+    if(hk==16){
+        alert('Ryzen 7 5800X\n8C16T\n3.8GHz\n4.7GHz\n105w\nZen3(Vermeer)\n純粋な8C16Tでは最強だったCPU\n価格が3700X比で異常に高い上に発売直後は不運なことに転売ヤーどもの手に渡ってしまい、品薄に拍車を掛けてしまった。\n1CCDにつき8コアのCCXが一つ乗っているため1CCDに4コアのCCXが2個積んである3700Xよりも発熱面積が小さくなった上に、最高耐熱温度も90℃となってしまったために冷却に気が抜けないCPUとなってしまった。')
+    }
+    if(hk==17){
+        alert('Core i9-11900K\n8C16T\n3.5GHz\n5.3GHz\n125w\nRocketLake-S\n14nmで作った(10nm前提である)IceLakeのようなコアであるためダイサイズが大きい\n消費電力も大きい\nAVX512+ABTでさらに熱くなれる\nまさにプレスコの悪夢の再来なCPUである')
     }
 }
 function a4(){
