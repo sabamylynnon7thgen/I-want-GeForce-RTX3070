@@ -5,7 +5,7 @@ function a2(){
     alert('チャンネル登録してクレメンス')
 }
 function a3(){
-    var hk=Math.floor(Math.random()*18)
+    var hk=Math.floor(Math.random()*19)
     if(hk==0){
         alert('Core i7-4790K\n4C8T\n4.0GHz\n4.4GHz\n88w\nHaswell(DevilsCanyon製品群)\nXP2000さんのメイン機に使われたCPU.\n7700Kが出るまでは最もクロックが高いCPUだった')
     }
@@ -25,7 +25,7 @@ function a3(){
         alert('Core i5-10400\n6C12T\n2.9GHz\n4.3GHz\n65w\nCometLake-S\n中３くんが自作するときにつかったCPU\ni5にHTが有効化されている(全モデル有効は初)、のでさらに強くなった\ni7-8700よりも早い\nRyzenの存在って大きいね')
     }
     if(hk==6){
-        alert('Core i7-8700K\n6C12T\n3.70GHz\n4.70GHz\n95w\nCoffeeLake-S\nとうとうメインストリームのi7が6コアになりました(Sandy-Eなどエンスージアスト向けには既にある)\nコア数が増えたにもかかわらずTDPは7700Kと比べて4wしか増えていません！\nこのCPUの1個うえに8086Kがあり定格、最大ともに300MHz上昇している')
+        alert('Core i7-8700K\n6C12T\n3.70GHz\n4.70GHz\n95w\nCoffeeLake-S\nとうとうメインストリームのi7が6コアになりました(Sandy-Eなどエンスージアスト向けには既にある)\nコア数が増えたにもかかわらずTDPは7700Kと比べて4wしか増えていません!\nこのCPUの1個うえに8086Kがあり定格、最大ともに300MHz上昇している')
     }
     if(hk==7){
         alert('Ryzen 7 3700X\n8C16T\n3.6GHz\n4.4GHz\n65w\nZen2(Matisse製品群)\nCore i9-9900Kと同等性能ながらCinebench R15 nTをぶん回している際の消費電力は147wとかなりエコである\nとてもコスパのいいCPUなのでツイ主も欲しいと思っています')
@@ -59,6 +59,9 @@ function a3(){
     }
     if(hk==17){
         alert('Core i9-11900K\n8C16T\n3.5GHz\n5.3GHz\n125w\nRocketLake-S\n14nmで作った(10nm前提である)IceLakeのようなコアであるためダイサイズが大きい\n消費電力も大きい\nAVX512+ABTでさらに熱くなれる\nまさにプレスコの悪夢の再来なCPUである')
+    }
+    if(hk==18){
+        alert('Core i7-12700K\n8C16T+4C4T\n3.6GHz+2.7GHz\n5.0GHz+3.8GHz\n125w\nAlderLake-S\n12コアなのに24スレッドじゃなくて20スレッドであるが12C24TのRyzen 9 5900Xよりもシングルスレッド性能が高いうえに一部の用途以外では格上であるはずのRyzen 9 5900Xを超えることができるやべーやつ\nCore i9-12900K/KFと比べてかなり扱いやすいCPUであるが11世代まででいうとPL2に当たるMTPは190wとRyzen 9 5900Xの電力リミットである142wよりは高い模様\n12コアCPUが5万円台で手に入るとかいうアタオカプライス')
     }
 }
 function a4(){
