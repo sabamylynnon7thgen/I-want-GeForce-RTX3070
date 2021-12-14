@@ -5,9 +5,9 @@ function a2(){
     alert('チャンネル登録してクレメンス')
 }
 function a3(){
-    var hk=Math.floor(Math.random()*19)
+    var hk=Math.floor(Math.random()*23)
     if(hk==0){
-        alert('Core i7-4790K\n4C8T\n4.0GHz\n4.4GHz\n88w\nHaswell(DevilsCanyon製品群)\nXP2000さんのメイン機に使われたCPU.\n7700Kが出るまでは最もクロックが高いCPUだった')
+    alert('Core i7-4790K\n4C8T\n4.0GHz\n4.4GHz\n88w\nHaswell(DevilsCanyon製品群)\nXP2000さんのメイン機に使われたCPU.\n7700Kが出るまでは最もクロックが高いCPUだった')
     }
     if(hk==1){
         alert('Ryzen 9 3900X\n12C24T\n3.8GHz\n4.6GHz\n105w\nZen2(Matisse製品群)\nかのG氏のメイン機やXP2000さんのPC-8801改PCに使われている\n280mm簡易水冷推奨とかいうバケモノ')
@@ -52,16 +52,28 @@ function a3(){
         alert('Core i5-12600K\n6C12T+4C4T\n3.7GHz+2.8GHz\n4.9GHz+3.6GHz\n125w\nAlderLake-S\n格上であるRyzen 7 5800Xに完全勝利できたi5\n6C12TのPコアと4C4TのEコアといった特殊な組み合わせでもWindows 11が快適に動くらしい(M$の最適化怖すぎ)\nLakefieldの改良版にしてはよく出来すぎている')
     }
     if(hk==15){
-        alert('Ryzen 7 4980U Microsoft Surface Edition\n8C16T\n2.0GHz\n4.4GHz\n15w\nZen2(Renoir)\nUモデル最強の名をほしいがごとく満を持して登場した事実上ノート用Zen2 APU最強となってしまった\nlavie N15より薄い筐体であるSurface Laptop 4で冷やしきれるのかが懸念点である')
+        alert('Ryzen 7 4980U Microsoft Surface Edition\n8C16T\n2.0GHz\n4.4GHz\n15w\nZen2(Renoir)\nUモデル最強の名をほしいがごとく満を持して登場した事実上ノート用Zen2 APU最強となってしまった\nExtreme Editionよりもエクストリームな仕様である\n(R7EE:8C16T/1.8~4.2GHz)\n(R7 4980U:8C16T/2.0~4.4GHz)\nlavie N15より薄い筐体であるSurface Laptop 4で冷やしきれるのかが懸念点である')
     }
     if(hk==16){
-        alert('Ryzen 7 5800X\n8C16T\n3.8GHz\n4.7GHz\n105w\nZen3(Vermeer)\n純粋な8C16Tでは最強だったCPU\n価格が3700X比で異常に高い上に発売直後は不運なことに転売ヤーどもの手に渡ってしまい、品薄に拍車を掛けてしまった。\n1CCDにつき8コアのCCXが一つ乗っているため1CCDに4コアのCCXが2個積んである3700Xよりも発熱面積が小さくなった上に、最高耐熱温度も90℃となってしまったために冷却に気が抜けないCPUとなってしまった。')
+        alert('Ryzen 7 5800X\n8C16T\n3.8GHz\n4.7GHz\n105w\nZen3(Vermeer)\n純粋な8C16Tでは最強だったCPU\n価格が329㌦でスタートした3700X比で異常に高い\nそのうえ発売直後は不運なことに転売ヤーどもの手に渡ってしまい、品薄に拍車を掛けてしまった。\n1CCDにつき8コアのCCXが一つ乗っているため1CCDに4コアのCCXが2個積んである3700Xよりも発熱面積が小さくなった\nさらに最高耐熱温度も90℃となってしまったために冷却に気が抜けないCPUとなってしまった。')
     }
     if(hk==17){
         alert('Core i9-11900K\n8C16T\n3.5GHz\n5.3GHz\n125w\nRocketLake-S\n14nmで作った(10nm前提である)IceLakeのようなコアであるためダイサイズが大きい\n消費電力も大きい\nAVX512+ABTでさらに熱くなれる\nまさにプレスコの悪夢の再来なCPUである')
     }
     if(hk==18){
-        alert('Core i7-12700K\n8C16T+4C4T\n3.6GHz+2.7GHz\n5.0GHz+3.8GHz\n125w\nAlderLake-S\n12コアなのに24スレッドじゃなくて20スレッドであるが12C24TのRyzen 9 5900Xよりもシングルスレッド性能が高いうえに一部の用途以外では格上であるはずのRyzen 9 5900Xを超えることができるやべーやつ\nCore i9-12900K/KFと比べてかなり扱いやすいCPUであるが11世代まででいうとPL2に当たるMTPは190wとRyzen 9 5900Xの電力リミットである142wよりは高い模様\n12コアCPUが5万円台で手に入るとかいうアタオカプライス')
+        alert('Core i7-12700K\n8C16T+4C4T\n3.6GHz+2.7GHz\n5.0GHz+3.8GHz\n125w\nAlderLake-S\n12コアなのに24スレッドじゃなくて20スレッドである\nしかし12C24TのRyzen 9 5900Xよりもシングルスレッド性能が高いうえに一部の用途以外では格上であるはずのRyzen 9 5900Xを超えることができるやべーやつ\nCore i9-12900K/KFと比べてかなり扱いやすいCPUであるが11世代まででいうとPL2に当たるMTPは190wとRyzen 9 5900Xの電力リミットである142wよりは高い模様\n12コアCPUが5万円台で手に入るとかいうアタオカプライス')
+    }
+    if(hk==19){
+        alert('Core i7-10700K\n8C16T\n3.8GHz\n5.1GHz\n125w\nCometLake-S\nCore i7もとうとう8C16Tとなりintelの対Ryzen 7 3700X用CPUだの揶揄されるが3700Xのほうがいろんな意味で強かった\nさらに出た後に旧世代のi9-9900Kに値引きを仕込んだため最初の売れ行きがそこまでよくなかった\nしかし第十一世代Core iシリーズ(RocketLake-S)が登場すると旧世代の在庫処分が始まって急激に安くなりようやく本来の輝きを手に入れたCPUである\n消費電力はターボブーストマックステクノロジー3.0の所為で増えたが10コアのi9ほどはひどくない模様')
+    }
+    if(hk==20){
+        alert("Ryzen 5 5600X\n6C12T\n3.7GHz\n4.6GHz\n65w\nZen3(Vermeer)\n1CCXに6コアが乗ったRyzen 5である\n対3600Xでコア間の遅延が全体的に小さくなった\nAMDの強気すぎる値段設定も相まってCore i7-8700K並みの値段で発売された模様\nやはりAlderLakeのi5が強すぎるので今はとても影が薄いらしい")
+    }
+    if(hk==21){
+        alert('Core i5-6500\n4C4T\n3.2GHz\n3.6GHz\n65w\nSkyLake\nCore i5-3470などの旧世代i5の中間グレードとクロック周りが同じCPU\nジャンクもしくは中古で単体もしくは搭載されているデスクトップPCなどが工房等でかなりの数が見られる\nCPU自体の性能はぼちぼち')
+    }
+    if(hk==22){
+        alert('Core i5-7640X\n4C4T\n4.0GHz\n4.2GHz\n112w\nKabyLake-X\ni5なのにXシリーズ,Xシリーズなのに4C4T、まさにイレギュラーの塊である\nCascadeLake-X対応BIOSにするとサポートが切られるCPUである\ni5なのに手が取りにくいのはLGA2066プラットフォームが主な原因であるだろう\nCPUコレクターなら高くても一つはほしい逸品')
     }
 }
 function a4(){
