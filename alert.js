@@ -77,7 +77,7 @@ function a3(){
     }
 }
 function a4(){
-    alert('intel Core i5-12600KのワットパフォーマンスがZen3を超えたらしいです\n(Ryzen 7 5800Xと比べた場合だが...)\nデバッグが楽しいとか十分病気なのかもしれない')
+    alert('intel Core i5-12600KのワットパフォーマンスがZen3を超えたらしいです\n(Ryzen 7 5800Xと比べた場合だが...)\nデバッグが楽しいとか十分病気なのかもしれない\n334エラー出てるサイトは現在工事中です')
 }
 function a5(){
     var inputname=prompt("名前を入力してください","");
