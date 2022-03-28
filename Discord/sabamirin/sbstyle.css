@@ -1,0 +1,17 @@
+.body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.maincontent{
+    background-color: rgb(131, 193, 255);
+    text-align: center ;
+}
+.text1{
+    width: 775px;
+    text-align:right;
+    margin: 0px;
+}
+.imgzone{
+    width: 1440px;
+    text-align: right;
+}

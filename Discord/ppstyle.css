@@ -10,3 +10,19 @@
     border-radius: 15px;
     margin: 30px auto;
 }
+.maincontents{
+    background-color: rgb(255, 187, 162);
+    width: 650px;
+    padding:15px auto;
+    text-align: center;
+    border-radius: 18px;
+    margin: 30px auto;
+}
+.sabamirin_flame{
+    background-color: rgb(255, 25, 152);
+    width: 460px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 16px;
+    margin: 30px auto;
+}
