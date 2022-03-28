@@ -6,12 +6,17 @@
     background-color: rgb(131, 193, 255);
     text-align: center ;
 }
-.text1{
-    width: 775px;
-    text-align:right;
-    margin: 0px;
+.DIVISION{
+    display:flex;
+    flex-wrap: wrap;
+}
+.DIVISION div{
+    width: 50%;
+    height: 50%;
 }
 .imgzone{
-    width: 1440px;
+    text-align: center;
+}
+.text1{
     text-align: right;
 }
